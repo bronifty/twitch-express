@@ -1,23 +1,23 @@
 require('dotenv').config();
 const apiClient = require('./twurpleClient').default;
-import { EventSubListener, ReverseProxyAdapter } from '@twurple/eventsub';
+const { EventSubListener, ReverseProxyAdapter } = require('@twurple/eventsub');
 // const { EventSubMiddleware } = require('@twurple/eventsub');
 
-const express = require('express');
+// const express = require('express');
 const smsClient = require('./smsClient').default;
 
-const port = 3000;
+// const port = 3000;
 const secret = process.env.TWITCH_SUBSCRIPTION_SECRET_PHRASE;
 const userId = process.env.TWITCH_BROADCASTER_ID_TEST;
 const hostName = process.env.EXPRESS_HOST_NAME_REVERSE_PROXY;
 // const hostName = process.env.EXPRESS_HOST_NAME;
 // const hostName = process.env.NGROK_HOST_NAME;
 
-const app = express();
+// const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello World!');
+// });
 
 // const middleware = new EventSubMiddleware({
 //   apiClient,
