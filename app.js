@@ -5,7 +5,6 @@ const express = require('express');
 const smsClient = require('./smsClient').default;
 
 const port = 3000;
-//
 const secret = process.env.TWITCH_SUBSCRIPTION_SECRET_PHRASE;
 const userId = process.env.TWITCH_BROADCASTER_ID_TEST;
 const hostName = process.env.EXPRESS_HOST_NAME;
