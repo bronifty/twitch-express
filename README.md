@@ -15,6 +15,7 @@ Steps to get this working:
 
 - [twitch dev console](https://dev.twitch.tv/console/)
 - [twurple docs](https://twurple.js.org/)
+- [twitch dev docs](https://dev.twitch.tv/docs/eventsub/manage-subscriptions)
 - [dotenv vault](https://ui.dotenv.org/)
 - [sms sdk docs](https://dashboard.nexmo.com/getting-started/sms)
 
