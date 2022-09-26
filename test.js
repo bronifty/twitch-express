@@ -15,17 +15,6 @@ const run = async () => {
   access_token = await resolveAccessTokenPromise();
   console.log('access_token in run: ', access_token);
 
-  // fetch
-  // fetch('https://api.twitch.tv/helix/users?id=141981764', {
-  //   method: 'GET',
-  //   headers: {
-  //     Authorization: `Bearer ${access_token.access_token}`,
-  //     'Client-Id': process.env.TWITCH_CLIENT_ID_TEST,
-  //   },
-  // })
-  //   .then((response) => response.json())
-  //   .then((data) => console.log(data));
-
   const promiseData = await fetch(
     'https://api.twitch.tv/helix/users?id=141981764',
     {
@@ -52,11 +41,6 @@ const run = async () => {
 };
 
 run();
-
-// convert the curl to a fetch
-// curl -X GET 'https://api.twitch.tv/helix/users?id=141981764' \
-// -H 'Authorization: Bearer cfabdegwdoklmawdzdo98xt2fo512y' \
-// -H 'Client-Id: uo6dggojyb8d6soh92zknwmi5ej1q2'
 
 // // fetch
 // fetch('https://api.twitch.tv/helix/users?id=141981764', {
