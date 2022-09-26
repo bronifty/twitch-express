@@ -24,5 +24,6 @@ Steps to get this working:
 - [Dist explanation of twitch webhook subs](https://discuss.dev.twitch.tv/t/attempting-to-understand-how-twitch-webhooks-work-with-discord-webhooks/28121/2)
 - [Dist tut on twitch webhooks in AWS](https://github.com/thedist/Twitch-Webhook-AWS-Tutorial)
 - [Courier tut on twitch webhooks](https://www.courier.com/blog/how-to-handle-real-time-twitch-events/)
+- [another one](https://dev.to/wyhaines/twitch-eventsub-the-direct-approach-to-getting-started-with-it-3dcj)
 
 <img src="./twitch-webhooks-sub.png">
